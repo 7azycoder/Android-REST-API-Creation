@@ -1,0 +1,8 @@
+URL	Method	Parameters	Description
+http://localhost/task_manager/v1/register	POST	name, email, password	User registration
+http://localhost/task_manager/v1/login	POST	email, password	User login
+http://localhost/task_manager/v1/tasks	POST	task	To create new task
+http://localhost/task_manager/v1/tasks	GET		Fetching all tasks
+http://localhost/task_manager/v1/tasks/:id	GET		Fetching single task
+http://localhost/task_manager/v1/tasks/:id	PUT		Updating single task
+http://localhost/task_manager/v1/tasks/:id	DELETE	task, status	Deleting single task
